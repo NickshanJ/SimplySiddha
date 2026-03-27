@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 
-import slide1 from '../assets/slide1.png'
-import slide2 from '../assets/slide2.png'
-import slide3 from '../assets/slide3.png'
-import slide4 from '../assets/slide4.png'
+const slide1 = '/assets/slide1.png'
+const slide2 = '/assets/slide2.png'
+const slide3 = '/assets/slide3.png'
+const slide4 = '/assets/slide4.png'
 
 const slides = [
   {
@@ -129,9 +129,9 @@ export default function Hero() {
             </div>
 
             {/* Slide number */}
-            <div className="absolute top-17.5 right-5 text-white/50 text-[12px]">
+            {/* <div className="absolute top-17.5 right-5 text-white/50 text-[12px]">
               {slide.num}
-            </div>
+            </div> */}
           </div>
         ))}
 

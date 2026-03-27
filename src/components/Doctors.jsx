@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
-import sangeetaImg from '../assets/sangeeta.png'
-import preetiImg from '../assets/preeti.png'
-import jayaImg from '../assets/jaya.png'
+const sangeetaImg = '/assets/sangeeta.png'
+const preetiImg = '/assets/preeti.png'
+const jayaImg = '/assets/jaya.png'
 
 const doctors = [
   {

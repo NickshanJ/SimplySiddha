@@ -1,4 +1,4 @@
-import aboutImage from '../assets/aboutImg.png';
+const aboutImage = '/assets/aboutImg.png';
 
 export default function About() {
   return (

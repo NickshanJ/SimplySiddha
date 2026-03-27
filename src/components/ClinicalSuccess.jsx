@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
-import hairImg from '../assets/hair.png'
-import beardImg from '../assets/beard.png'
-import skinImg from '../assets/skin.png'
+const hairImg = '/assets/hair.png'
+const beardImg = '/assets/beard.png'
+const skinImg = '/assets/skin.png'
 
 const results = [
   {
