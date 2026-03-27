@@ -1,7 +1,7 @@
 const treatments = [
   {
     id: 't0',
-    emoji: '🫁',
+    emoji: '🌿',
     bg: 'linear-gradient(135deg, #1a3a22, #2d6e3a)',
     title: 'Digestive disorders',
     desc: 'Restore gut health and digestive balance through herbal remedies and personalised diet guidance.',
@@ -9,7 +9,7 @@ const treatments = [
   },
   {
     id: 't1',
-    emoji: '🫀',
+    emoji: '🫁',
     bg: 'linear-gradient(135deg, #1a2a3a, #2d4a6e)',
     title: 'Respiratory disorders',
     desc: 'Strengthen the respiratory system with proven Siddha herbs and breathing therapies.',
